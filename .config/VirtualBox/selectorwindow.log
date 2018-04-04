@@ -1,0 +1,17 @@
+VirtualBox GUI VM Selector Window 5.2.8 r120774 linux.amd64 (Feb 28 2018 07:46:09) release log
+00:00:00.382398 Log opened 2018-04-03T22:39:26.873432000Z
+00:00:00.382399 Build Type: release
+00:00:00.382401 OS Product: Linux
+00:00:00.382402 OS Release: 4.15.11-1-ARCH
+00:00:00.382403 OS Version: #1 SMP PREEMPT Mon Mar 19 18:21:03 UTC 2018
+00:00:00.382419 DMI Product Name: XPS 13 9350
+00:00:00.382425 DMI Product Version: 
+00:00:00.382472 Host RAM: 7826MB (7.6GB) total, 3389MB (3.3GB) available
+00:00:00.382475 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.382475 Process ID: 9678
+00:00:00.382476 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.382498 Qt version: 5.10.1
+00:00:00.401903 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.573726 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 960x0 x 960x1059
+00:00:00.598042 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.599886 GUI: UIMediumEnumerator: Medium-enumeration finished!
