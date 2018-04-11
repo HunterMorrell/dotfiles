@@ -12,6 +12,11 @@ files="bashrc zshrc oh-my-zsh aliases bash_profile bash_prompt exports"    # lis
 
 ##########
 
+# installing oh-my-zsh
+cd ~
+echo "Installing oh-my-zsh"
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
@@ -22,10 +27,10 @@ echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
 for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
-    mv ~/.$file ~/dotfiles_old/
+    mv ~/.$file ~/$olddir/.$file
 done
 
 make

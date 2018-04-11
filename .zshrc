@@ -60,9 +60,12 @@ ZSH_CUSTOM=~/Github/dotfiles/oh-my-zsh/custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  git-extras
   archlinux
   common-aliases
-  colored-man-pages
+  command-not-found
+  zsh-bd
+  you-should-use $plugins
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -94,3 +97,9 @@ export EDITOR='vim'
 #
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
+
+# zsh-bd
+. $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/bd/bd.zsh
+
+# ripz
+# . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
