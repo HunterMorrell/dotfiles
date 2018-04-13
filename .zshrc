@@ -96,6 +96,9 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+
+
+# Custom Plugins
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # zsh-bd
