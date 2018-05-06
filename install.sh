@@ -8,7 +8,7 @@
 
 dir=~/Github/dotfiles                    # dotfiles directory
 olddir=~/Github/dotfiles_old             # old dotfiles backup directory
-files="bashrc zshrc oh-my-zsh aliases bash_profile bash_prompt exports"    # list of files/folders to symlink in homedir
+files="bashrc zshrc  aliases bash_profile bash_prompt exports"    # list of files/folders to symlink in homedir
 
 ##########
 
