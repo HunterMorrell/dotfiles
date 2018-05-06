@@ -7,8 +7,6 @@ $FG[032]┌─=[ %n@%m ]=[ %~\
 $(git_prompt_info)\
 $(git_prompt_status) $FG[032]]
 $FG[032]└─%(!.#.»)%{$reset_color%} '
-PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
-RPS1='${return_code}'
 
 
 # color vars
