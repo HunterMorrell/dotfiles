@@ -4,7 +4,16 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 
-exec albert
+exec albert &
+exec discord &
+exec xscreensaver &
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Assign discord to workspace 1
+assign [class="discord"] 1
+
+# Start firefox and assign it to workspace 2
+exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
 
 # i3 config file (v4)
 #
@@ -31,6 +40,9 @@ font pango:Tamsyn-font 9
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Window borders
+default_border none
+
 # start a terminal
 bindsym $mod+Return exec xterm
 
@@ -45,10 +57,10 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+Return exec albert
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
+# bindsym $mod+l focus up
+# bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Down focus down
@@ -159,10 +171,12 @@ bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMute exec amixer set Master toggle
 
+bindsym $mod+l exec xscreensaver-command -lock
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+#bar {
+#       status_command i3status
+#}
 
 
