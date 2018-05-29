@@ -48,6 +48,7 @@ ENABLE_CORRECTION="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
+
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 
@@ -59,13 +60,15 @@ ZSH_CUSTOM=~/Github/dotfiles/oh-my-zsh/custom
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  git-extras
-  archlinux
-  common-aliases
-  command-not-found
-  zsh-bd
-  you-should-use $plugins
+git
+git-extras
+archlinux
+common-aliases
+command-not-found
+zsh-bd
+you-should-use $plugins
+
+  6olarized-man
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -96,8 +99,9 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-
-
+alias ls='colorls'
+alias la='ls -la'
+alias sudo='sudo '
 # Custom Plugins
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
@@ -106,3 +110,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # ripz
 # . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
+
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
