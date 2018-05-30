@@ -65,10 +65,9 @@ git-extras
 archlinux
 common-aliases
 command-not-found
-zsh-bd
 you-should-use $plugins
 
-  6olarized-man
+  solarized-man
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,11 +101,11 @@ export EDITOR='vim'
 alias ls='colorls'
 alias la='ls -la'
 alias sudo='sudo '
-# Custom Plugins
-source /usr/share/doc/pkgfile/command-not-found.zsh
 
-# zsh-bd
+# Custom Plugins
 . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/bd/bd.zsh
+
+. $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 
 # ripz
 # . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
