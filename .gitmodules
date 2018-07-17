@@ -1,0 +1,6 @@
+[submodule "oh-my-zsh/custom/plugins/solarized-man"]
+	path = oh-my-zsh/custom/plugins/solarized-man
+	url = https://github.com/zlsun/solarized-man.git
+[submodule "oh-my-zsh/custom/plugins/zsh-you-should-use"]
+	path = oh-my-zsh/custom/plugins/zsh-you-should-use
+	url = https://github.com/MichaelAquilina/zsh-you-should-use.git

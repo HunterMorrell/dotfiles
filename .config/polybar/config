@@ -22,7 +22,7 @@ alert = #bd2c40
 include-file = ~/.config/polybar/top-bar
 modules-left = i3
 modules-center = date
-modules-right = xbacklight volume vpu memory battery wireless-network powermenu
+modules-right = xbacklight volume vpu memory battery wireless-network-personal-laptop wireless-network-work-laptop powermenu
 
 [bar/top-second]
 include-file = ~/.config/polybar/top-bar
@@ -30,9 +30,15 @@ modules-left = hostname menu-apps
 modules-center = wave mpd wave
 modules-right = wireless-network ip wlan eth
 
-[module/wireless-network]
+[module/wireless-network-personal-laptop]
 type = internal/network
 interface = wlp58s0
+interval = 3.0
+label-connected = %essid% %local_ip%
+
+[module/wireless-network-work-laptop]
+type = internal/network
+interface = wlp59s0
 interval = 3.0
 label-connected = %essid% %local_ip%
 

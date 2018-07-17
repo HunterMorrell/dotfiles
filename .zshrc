@@ -65,10 +65,9 @@ git-extras
 archlinux
 common-aliases
 command-not-found
-zsh-bd
 you-should-use $plugins
 
-  6olarized-man
+  solarized-man
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -93,24 +92,29 @@ export EDITOR='vim'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+  #
+  # Example aliases
+  # alias zshconfig="mate ~/.zshrc"
+  # alias ohmyzsh="mate ~/.oh-my-zsh"
+  #
 
-alias ls='colorls'
-alias la='ls -la'
-alias sudo='sudo '
+  alias ls='colorls'
+  alias la='ls -la'
+  alias sudo='sudo '
+
 # Custom Plugins
-source /usr/share/doc/pkgfile/command-not-found.zsh
-
-# zsh-bd
 . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/bd/bd.zsh
+
+. $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 
 # ripz
 # . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
 
 if which ruby >/dev/null && which gem >/dev/null; then
-    PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+  PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
+
+
+alias openconnect='sudo openconnect -u hmorrell3 --authgroup=gatech-2fa-Duo dept.vpn.gatech.edu'
+
+alias sudo='sudo '
