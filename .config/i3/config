@@ -14,7 +14,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 assign [class="discord"] 1
 
 # Start firefox and assign it to workspace 2
-exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
+#exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
 
 # i3 config file (v4)
 #
