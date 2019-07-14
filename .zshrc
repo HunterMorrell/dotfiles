@@ -65,9 +65,6 @@ git-extras
 archlinux
 common-aliases
 command-not-found
-you-should-use $plugins
-
-  solarized-man
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,8 +102,6 @@ export EDITOR='vim'
 # Custom Plugins
 . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/bd/bd.zsh
 
-. $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/zsh-you-should-use/you-should-use.plugin.zsh
-
 # ripz
 # . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
 
@@ -118,3 +113,5 @@ fi
 alias openconnect='sudo openconnect -u hmorrell3 --authgroup=gatech-2fa-Duo dept.vpn.gatech.edu'
 
 alias sudo='sudo '
+
+export PATH=$PATH:~/shift/Shift
