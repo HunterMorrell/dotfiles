@@ -4,17 +4,11 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 
-exec albert &
-exec discord &
+exec ~/station.AppImage --no-sandbox &
 exec xscreensaver &
-exec touchegg &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# Assign discord to workspace 1
-assign [class="discord"] 1
-
-# Start firefox and assign it to workspace 2
-#exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
+assign [class="Station"] 1
 
 # i3 config file (v4)
 #
@@ -22,10 +16,12 @@ assign [class="discord"] 1
 
 set $mod Mod4
 
+bindsym $mod+space exec rofi -show run
+bindsym ctrl+space exec rofi -show run
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-#font pango:monospace 8
-font pango:Tamsyn-font 9
+font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -42,10 +38,10 @@ font pango:Tamsyn-font 9
 floating_modifier $mod
 
 # Window borders
-default_border none
+default_border pixel 1
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -95,9 +91,6 @@ bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
-
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent

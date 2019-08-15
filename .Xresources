@@ -26,11 +26,31 @@
 *.color7:       #d3d3d3
 *.color15:      #c1cdc1
 
-!xterm*faceName: terminus-10
-
 xterm*VT100.Translations: #override \
     Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
     Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
     Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
     Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+*.font: xft:Hack Nerd Font Mono:size=11, xft:Source Code Pro for Powerline:size=11
+
+URxvt*scrollBar: false
+
+!
+! borders
+!
+! pixels for external border
+URxvt*externalBorder:     0
+! pixels for internal border
+URxvt*internalBorder:     2
+! remove border
+URxvt*borderLess: false

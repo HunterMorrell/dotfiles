@@ -53,7 +53,7 @@ ENABLE_CORRECTION="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/Github/dotfiles/oh-my-zsh/custom
+ZSH_CUSTOM=~/Github/dotfiles/zsh/oh-my-zsh/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -62,9 +62,12 @@ ZSH_CUSTOM=~/Github/dotfiles/oh-my-zsh/custom
 plugins=(
 git
 git-extras
-archlinux
 common-aliases
 command-not-found
+debian
+alias-tips
+dotpyvenv
+
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,4 +117,12 @@ alias openconnect='sudo openconnect -u hmorrell3 --authgroup=gatech-2fa-Duo dept
 
 alias sudo='sudo '
 
-export PATH=$PATH:~/shift/Shift
+alias ssh='~/Github/ssh-ident/ssh-ident'
+
+alias aptin='sudo apt install '
+alias aptupd='sudo apt update '
+alias aptupg='sudo apt upgrade '
+alias aptrein='sudo apt reinstall '
+alias aptrem='sudo apt remove '
+alias aptarem='sudo apt autoremove '
+alias aptse='sudo apt search '

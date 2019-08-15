@@ -1,0 +1,6 @@
+2019/08/14-16:04:47.792 637 Reusing MANIFEST /home/hunter/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/08/14-16:04:47.792 637 Recovering log #7
+2019/08/14-16:04:47.799 637 Reusing old log /home/hunter/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000007.log 
+2019/08/14-16:04:53.411 6d6 Level-0 table #11: started
+2019/08/14-16:04:53.473 6d6 Level-0 table #11: 1470826 bytes OK
+2019/08/14-16:04:53.487 6d6 Delete type=0 #7

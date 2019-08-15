@@ -1,9 +1,9 @@
 # primary prompt
 PROMPT='$FG[237]------------------------------------------------------------%{$reset_color%}
-$FG[032]┌─=[ %n@%m ]=[ %~\
+$FG[040]┌─=[ %n @ %m ]=[ %~\
 $(git_prompt_info)\
-$(git_prompt_status) $FG[032]]
-$FG[032]└─%(!.#.»)%{$reset_color%} '
+$(git_prompt_status) $FG[040]]
+$FG[040]└─%(!.#.»)%{$reset_color%} '
 
 
 # color vars
@@ -13,7 +13,7 @@ eval my_orange='$FG[214]'
 ZSH_THEME_GIT_PROMPT_PREFIX=" ]=[ $FG[078]"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="$my_orange*%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[032]%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="$FG[040]%{$reset_color%}"
 
 # Format for git_prompt_status()
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg_bold[green]%}+%{$reset_color%}"
