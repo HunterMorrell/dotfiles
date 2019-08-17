@@ -41,7 +41,7 @@ URxvt*scrollWithBuffer: true
 ! scroll back to the bottom on keypress
 URxvt*scrollTtyKeypress: true
 
-*.font: xft:Hack Nerd Font Mono:size=11, xft:Source Code Pro for Powerline:size=11
+URxvt.font: xft:Hack Nerd Font Mono:size=11, xft:Source Code Pro for Powerline:size=11
 
 URxvt*scrollBar: false
 
@@ -54,3 +54,6 @@ URxvt*externalBorder:     0
 URxvt*internalBorder:     2
 ! remove border
 URxvt*borderLess: false
+
+
+rofi.theme: flat-green

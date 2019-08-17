@@ -53,7 +53,7 @@ ENABLE_CORRECTION="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=~/Github/dotfiles/zsh/oh-my-zsh/custom
+ZSH_CUSTOM=~/repos/dotfiles/oh-my-zsh/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -65,9 +65,6 @@ git-extras
 common-aliases
 command-not-found
 debian
-alias-tips
-dotpyvenv
-
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -78,9 +75,6 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -112,17 +106,4 @@ if which ruby >/dev/null && which gem >/dev/null; then
   PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
-
-alias openconnect='sudo openconnect -u hmorrell3 --authgroup=gatech-2fa-Duo dept.vpn.gatech.edu'
-
-alias sudo='sudo '
-
-alias ssh='~/Github/ssh-ident/ssh-ident'
-
-alias aptin='sudo apt install '
-alias aptupd='sudo apt update '
-alias aptupg='sudo apt upgrade '
-alias aptrein='sudo apt reinstall '
-alias aptrem='sudo apt remove '
-alias aptarem='sudo apt autoremove '
-alias aptse='sudo apt search '
+source ~/.aliases
