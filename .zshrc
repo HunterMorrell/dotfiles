@@ -64,7 +64,6 @@ git
 git-extras
 common-aliases
 command-not-found
-debian
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -97,10 +96,6 @@ source $ZSH/oh-my-zsh.sh
   alias sudo='sudo '
 
 # Custom Plugins
-. $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/bd/bd.zsh
-
-# ripz
-# . $HOME/Github/dotfiles/oh-my-zsh/custom/plugins/ripz/ripz.zsh
 
 if which ruby >/dev/null && which gem >/dev/null; then
   PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"

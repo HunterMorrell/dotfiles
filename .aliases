@@ -35,30 +35,8 @@
 # untar
    alias untar='tar xvf'
 
-alias sudo='sudo '
-
-alias ssh='~/Github/ssh-ident/ssh-ident'
-
-alias openconnect='sudo openconnect -u hmorrell3 --authgroup=gatech-2fa-Duo dept.vpn.gatech.edu'
-
-alias sudo='sudo '
-
-alias laptop_display='xrandr --output eDP-1 --mode 1920x1080 --output DVI-I-2-2 --off --output DVI-I-1-1 --off'
-
-alias desk_display='xrandr --output eDP-1 --mode 1920x1080 --pos 1080x1080 --output DVI-I-2-2 --mode 1920x1080 --pos 0x0 --output DVI-I-1-1 --mode 1920x1080 --pos 1920x0'
-
-alias soc_display='xrandr --output eDP-1 --mode 1920x1080 --pos 1920x500 --output DVI-I-2-1 --mode 1920x1080 --pos 0x0 --output DVI-I-3-2 --mode 1920x1080 --pos 3840x0'
-
-alias eduroamreset='nmcli connection down eduroam | nmcli connection up eduroam'
-
-export PATH=$PATH:~/Github/Cybersecurity/bin-is
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Github
-source /usr/local/bin/virtualenvwrapper.sh
-
-source ~/.autoenv/activate.sh
-
 alias vim="nvim "
 
-alias dnfin="sudo dnf install "
+alias aptin="sudo apt install "
+alias aptupd="sudo apt update "
+alias aptupg="sudo apt upgrade "
