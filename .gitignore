@@ -1,2 +1,7 @@
 .gitconfig
 .config/Station/*
+.config/pulse/*
+.config/dconf/*
+.config/goa*/*
+.config/gtk*/*
+
