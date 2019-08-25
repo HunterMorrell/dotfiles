@@ -4,6 +4,6 @@
 [submodule "oh-my-zsh/custom/plugins/zsh-you-should-use"]
 	path = oh-my-zsh/custom/plugins/zsh-you-should-use
 	url = https://github.com/MichaelAquilina/zsh-you-should-use.git
-[submodule ".vim"]
-	path = .vim
-	url = git@github.com:HunterMorrell/.vim.git
+[submodule "vim"]
+	path = vim
+	url = git@github.com:HunterMorrell/vim.git

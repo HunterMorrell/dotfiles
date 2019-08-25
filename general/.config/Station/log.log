@@ -1,0 +1,1139 @@
+[2019-08-02 20:38:57.188] [info] Proxy : no settings detected
+[2019-08-02 20:38:59.709] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:38:59.731] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:38:59.731] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-02 20:38:59.898] [info] == 00-schema-creation: migrating =======
+[2019-08-02 20:39:00.100] [info] == 00-schema-creation: migrated (0.201s)
+
+[2019-08-02 20:39:00.105] [info] == 01-add-subwindows: migrating =======
+[2019-08-02 20:39:00.135] [info] == 01-add-subwindows: migrated (0.030s)
+
+[2019-08-02 20:39:00.141] [info] == 01-applicationId-null-not-allow: migrating =======
+[2019-08-02 20:39:00.210] [info] == 01-applicationId-null-not-allow: migrated (0.068s)
+
+[2019-08-02 20:39:00.216] [info] == 201707211543-pk-null-not-allow: migrating =======
+[2019-08-02 20:39:00.388] [info] == 201707211543-pk-null-not-allow: migrated (0.172s)
+
+[2019-08-02 20:39:00.397] [info] == 201708211718-add-organizations: migrating =======
+[2019-08-02 20:39:00.431] [info] == 201708211718-add-organizations: migrated (0.033s)
+
+[2019-08-02 20:39:00.436] [info] == 20170825181500-add-column-sleep-notif: migrating =======
+[2019-08-02 20:39:00.464] [info] == 20170825181500-add-column-sleep-notif: migrated (0.027s)
+
+[2019-08-02 20:39:00.469] [info] == 201708301820-add-user-picture: migrating =======
+[2019-08-02 20:39:00.491] [info] == 201708301820-add-user-picture: migrated (0.022s)
+
+[2019-08-02 20:39:00.496] [info] == 20170901161612-add-column-tooltip: migrating =======
+[2019-08-02 20:39:00.520] [info] == 20170901161612-add-column-tooltip: migrated (0.024s)
+
+[2019-08-02 20:39:00.526] [info] == 201712061725-add-ui: migrating =======
+[2019-08-02 20:39:00.553] [info] == 201712061725-add-ui: migrated (0.026s)
+
+[2019-08-02 20:39:00.562] [info] == 20171211120843-app-installation-limit: migrating =======
+[2019-08-02 20:39:00.587] [info] == 20171211120843-app-installation-limit: migrated (0.024s)
+
+[2019-08-02 20:39:00.591] [info] == 20171212145600-add-column-onboarding-teammates: migrating =======
+[2019-08-02 20:39:00.617] [info] == 20171212145600-add-column-onboarding-teammates: migrated (0.025s)
+
+[2019-08-02 20:39:00.622] [info] == 201712180000-add-ui-bis: migrating =======
+[2019-08-02 20:39:00.663] [info] == 201712180000-add-ui-bis: migrated (0.040s)
+
+[2019-08-02 20:39:00.668] [info] == 20171220180516-add-user-weekly-usage-table: migrating =======
+[2019-08-02 20:39:00.729] [info] == 20171220180516-add-user-weekly-usage-table: migrated (0.061s)
+
+[2019-08-02 20:39:00.734] [info] == 20180116172214-password-managers: migrating =======
+[2019-08-02 20:39:00.770] [info] == 20180116172214-password-managers: migrated (0.036s)
+
+[2019-08-02 20:39:00.777] [info] == 20180130123653-remove-referral-tooltip-columns: migrating =======
+[2019-08-02 20:39:00.921] [info] == 20180130123653-remove-referral-tooltip-columns: migrated (0.143s)
+
+[2019-08-02 20:39:00.928] [info] == 20180222180600-add-services-data: migrating =======
+[2019-08-02 20:39:00.951] [info] == 20180222180600-add-services-data: migrated (0.023s)
+
+[2019-08-02 20:39:00.956] [info] == 20180227185500-add-notification-pref: migrating =======
+[2019-08-02 20:39:00.988] [info] == 20180227185500-add-notification-pref: migrated (0.032s)
+
+[2019-08-02 20:39:00.993] [info] == 20180425134000-add-notification-pref: migrating =======
+[2019-08-02 20:39:01.008] [info] == 20180425134000-add-notification-pref: migrated (0.013s)
+
+[2019-08-02 20:39:01.014] [info] == 20180426164200-add-services: migrating =======
+[2019-08-02 20:39:01.041] [info] == 20180426164200-add-services: migrated (0.027s)
+
+[2019-08-02 20:39:01.048] [info] == 20180523111100-move-services-data-gdrive: migrating =======
+[2019-08-02 20:39:01.064] [info] == 20180523111100-move-services-data-gdrive: migrated (0.015s)
+
+[2019-08-02 20:39:01.084] [info] == 20180531164300-add-tabs-lastActivityAt: migrating =======
+[2019-08-02 20:39:01.111] [info] == 20180531164300-add-tabs-lastActivityAt: migrated (0.031s)
+
+[2019-08-02 20:39:01.118] [info] == 20180618000000-add-downloadFolder: migrating =======
+[2019-08-02 20:39:01.141] [info] == 20180618000000-add-downloadFolder: migrated (0.023s)
+
+[2019-08-02 20:39:01.153] [info] == 20180704113200-add-service-always-loaded: migrating =======
+[2019-08-02 20:39:01.180] [info] == 20180704113200-add-service-always-loaded: migrated (0.027s)
+
+[2019-08-02 20:39:01.187] [info] == 20180821000000-add-activity: migrating =======
+[2019-08-02 20:39:01.234] [info] == 20180821000000-add-activity: migrated (0.048s)
+
+[2019-08-02 20:39:01.240] [info] == 20180906000000-add-showCpuIndicator: migrating =======
+[2019-08-02 20:39:01.268] [info] == 20180906000000-add-showCpuIndicator: migrated (0.028s)
+
+[2019-08-02 20:39:01.273] [info] == 20181002000000-move-configdata: migrating =======
+[2019-08-02 20:39:01.302] [info] == 20181002000000-move-configdata: migrated (0.029s)
+
+[2019-08-02 20:39:01.310] [info] == 20181014000000-add-column-activity-serviceId: migrating =======
+[2019-08-02 20:39:01.331] [info] == 20181014000000-add-column-activity-serviceId: migrated (0.021s)
+
+[2019-08-02 20:39:01.336] [info] == 20181106000000-add-service-instance-logo-in-dock: migrating =======
+[2019-08-02 20:39:01.359] [info] == 20181106000000-add-service-instance-logo-in-dock: migrated (0.024s)
+
+[2019-08-02 20:39:01.364] [info] == 20181115105300-remove-orphan-subwindows: migrating =======
+[2019-08-02 20:39:01.376] [info] == 20181115105300-remove-orphan-subwindows: migrated (0.013s)
+
+[2019-08-02 20:39:01.382] [info] == 20181203145000-clean-whatsapp-cahe-data: migrating =======
+[2019-08-02 20:39:01.393] [info] == 20181203145000-clean-whatsapp-cahe-data: migrated (0.012s)
+
+[2019-08-02 20:39:01.399] [info] == 20181207164500-clean-whatsapp-cahe-data: migrating =======
+[2019-08-02 20:39:01.410] [info] == 20181207164500-clean-whatsapp-cahe-data: migrated (0.011s)
+
+[2019-08-02 20:39:01.417] [info] == 201902111742-replace-service-id-by-manifest-url: migrating =======
+[2019-08-02 20:39:01.473] [info] == 201902111742-replace-service-id-by-manifest-url: migrated (0.057s)
+
+[2019-08-02 20:39:01.479] [info] == 20190218174700-add-installContext: migrating =======
+[2019-08-02 20:39:01.507] [info] == 20190218174700-add-installContext: migrated (0.028s)
+
+[2019-08-02 20:39:01.512] [info] == 20190304153200-move-sdk-serviceid-keys: migrating =======
+[2019-08-02 20:39:01.625] [info] == 20190304153200-move-sdk-serviceid-keys: migrated (0.112s)
+
+[2019-08-02 20:39:01.640] [info] == 20190320161700-allow-null-serviceId: migrating =======
+[2019-08-02 20:39:01.719] [info] == 20190320161700-allow-null-serviceId: migrated (0.080s)
+
+[2019-08-02 20:39:14.536] [info] Proxy : no settings detected
+[2019-08-02 20:39:17.079] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:39:17.100] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:39:17.100] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-02 20:42:23.210] [info] Proxy : no settings detected
+[2019-08-02 20:42:25.888] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:42:25.908] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-02 20:42:25.909] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-02 20:45:14.328] [warn] Analytics: we are replacing userId null by google-oauth2|108680411118136020442
+[2019-08-02 20:45:14.339] [warn] Analytics: we are replacing user email null by hunter.james.morrell@gmail.com
+[2019-08-02 20:46:49.591] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-02 20:47:27.637] [info] Checking sleepy tabs
+[2019-08-02 20:51:47.559] [error] Error: SequelizeTimeoutError: Insert error: [ApplicationProxy] Map { "applicationId": "foQEDVO3b", "manifestURL": "https://api.getstation.com/application-recipe/181/bxAppManifest.json", "installContext": [object Object], "activeTab": "foQEDVO3b/4pE5yevSre" }.
+Details: SQLITE_BUSY: database is locked
+    at MapStateProxy.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/app/persistence/backend.ts:245:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:107:62)
+    at propagateAslWrapper (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/glue.js:188:31
+From previous event:
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/app/persistence/backend.ts:28:22
+    at new WrappedPromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at MapStateProxy.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/app/persistence/backend.ts:26:20)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at MapStateProxy.set (/tmp/.mount_statioe5FRsa/resources/app.asar/app/persistence/backend.ts:22:24)
+    at ApiStorage.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/app/store/storage.ts:34:38)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at ApiStorage.setItem (/tmp/.mount_statioe5FRsa/resources/app.asar/app/store/storage.ts:32:24)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-persist/lib/createPersistor.js:82:54
+[2019-08-02 20:52:27.637] [info] Checking sleepy tabs
+[2019-08-02 20:53:30.419] [error] TypeError: Cannot read property 'get' of null
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:81:25
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at getFirstValue (/tmp/.mount_statioe5FRsa/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:80:24)
+    at runCallEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:524:19)
+    at runEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:402)
+    at next (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at currCb (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:399:7)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:510:16
+    at exec (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:25:5)
+    at flush (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:66:5)
+    at asap (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:39:5)
+    at Array.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:197:27)
+    at Object.emit (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:38:13)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/middleware.js:73:21
+    at Object.dispatch (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-thunk/lib/index.js:14:16)
+    at Peers.handler (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/shared-redux/dist/helpers/replayActionServer.js:11:13)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/shared-redux/dist/middleware/peers.js:96:16
+    at RPCPeer.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/stream-json-rpc/lib/peer.js:44:20)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:67
+[2019-08-02 20:57:27.636] [info] Checking sleepy tabs
+[2019-08-02 21:02:27.636] [info] Checking sleepy tabs
+[2019-08-02 21:07:27.636] [info] Checking sleepy tabs
+[2019-08-03 13:05:30.178] [error] Error
+    at handle (/tmp/.mount_statioe5FRsa/resources/app.asar/app/auto-update/sagas.ts:48:46)
+    at handle.next (<anonymous>)
+    at next (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:322:27)
+    at proc (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:281:3)
+    at resolveIterator (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:467:5)
+    at runCallEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:528:98)
+    at runEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:402)
+    at next (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at proc (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:281:3)
+    at runForkEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:565:19)
+    at runEffect (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:544)
+    at next (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at currCb (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:399:7)
+    at takeCb (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:477:108)
+    at Object.put (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:85:16)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:173:10
+    at ServiceObserver.onError (/tmp/.mount_statioe5FRsa/resources/app.asar/app/utils/sagas/index.ts:225:21)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/app/services/lib/class.ts:121:29
+    at RPCPeer.<anonymous> (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/stream-json-rpc/lib/peer.js:44:20)
+    at /tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:67
+    at new WrappedPromise (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at RPCPeer._handle (/tmp/.mount_statioe5FRsa/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:16)
+[2019-08-03 13:05:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:10:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:15:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:20:31.738] [info] Checking sleepy tabs
+[2019-08-03 13:25:31.738] [info] Checking sleepy tabs
+[2019-08-03 13:30:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:35:31.738] [info] Checking sleepy tabs
+[2019-08-03 13:40:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:45:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:50:31.737] [info] Checking sleepy tabs
+[2019-08-03 13:55:31.741] [info] Checking sleepy tabs
+[2019-08-03 14:00:31.737] [info] Checking sleepy tabs
+[2019-08-03 14:05:31.737] [info] Checking sleepy tabs
+[2019-08-03 14:10:31.738] [info] Checking sleepy tabs
+[2019-08-03 14:14:02.025] [info] Proxy : no settings detected
+[2019-08-03 14:14:04.727] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-03 14:14:04.750] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-03 14:14:04.750] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-03 14:14:06.822] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statiooaFPUC/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-03 14:19:06.645] [info] Checking sleepy tabs
+[2019-08-03 14:24:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:29:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:34:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:39:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:44:06.645] [info] Checking sleepy tabs
+[2019-08-03 14:49:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:54:06.644] [info] Checking sleepy tabs
+[2019-08-03 14:59:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:04:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:09:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:14:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:19:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:24:06.644] [info] Checking sleepy tabs
+[2019-08-03 15:29:06.648] [info] Checking sleepy tabs
+[2019-08-03 15:44:33.531] [info] Checking sleepy tabs
+[2019-08-03 15:49:33.531] [info] Checking sleepy tabs
+[2019-08-03 15:54:33.531] [info] Checking sleepy tabs
+[2019-08-04 15:47:14.731] [info] Checking sleepy tabs
+[2019-08-04 15:52:14.733] [info] Checking sleepy tabs
+[2019-08-04 15:57:14.732] [info] Checking sleepy tabs
+[2019-08-04 16:02:14.732] [info] Checking sleepy tabs
+[2019-08-04 16:07:14.733] [info] Checking sleepy tabs
+[2019-08-04 16:12:14.733] [info] Checking sleepy tabs
+[2019-08-04 16:17:14.732] [info] Checking sleepy tabs
+[2019-08-04 16:22:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:27:15.498] [info] Checking sleepy tabs
+[2019-08-04 16:32:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:37:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:42:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:47:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:52:15.499] [info] Checking sleepy tabs
+[2019-08-04 16:57:15.499] [info] Checking sleepy tabs
+[2019-08-04 17:02:15.499] [info] Checking sleepy tabs
+[2019-08-04 17:07:15.499] [info] Checking sleepy tabs
+[2019-08-04 17:10:51.201] [info] Proxy : no settings detected
+[2019-08-04 17:10:53.802] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-04 17:10:53.824] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-04 17:10:53.824] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-04 17:10:54.832] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statio81kuGX/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statio81kuGX/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-04 17:15:55.725] [info] Checking sleepy tabs
+[2019-08-04 17:20:55.723] [info] Checking sleepy tabs
+[2019-08-04 18:16:22.204] [info] Proxy : no settings detected
+[2019-08-04 18:16:24.870] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-04 18:16:24.887] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-04 18:16:24.888] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-04 18:16:26.282] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statiowWtmIA/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-04 18:21:26.741] [info] Checking sleepy tabs
+[2019-08-04 18:26:26.741] [info] Checking sleepy tabs
+[2019-08-04 18:31:26.744] [info] Checking sleepy tabs
+[2019-08-04 18:36:27.452] [info] Checking sleepy tabs
+[2019-08-04 18:41:27.452] [info] Checking sleepy tabs
+[2019-08-04 18:46:27.452] [info] Checking sleepy tabs
+[2019-08-04 18:51:27.451] [info] Checking sleepy tabs
+[2019-08-04 18:56:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:01:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:06:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:11:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:16:26.740] [error] Getting public IP and location did not work
+ Error getting location.  Possibly throttled.
+[2019-08-04 19:16:27.454] [info] Checking sleepy tabs
+[2019-08-04 19:21:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:26:27.452] [info] Checking sleepy tabs
+[2019-08-04 19:31:27.452] [info] Checking sleepy tabs
+[2019-08-07 20:33:22.009] [info] Checking sleepy tabs
+[2019-08-07 20:36:55.867] [info] Proxy : no settings detected
+[2019-08-07 20:36:58.497] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-07 20:36:58.520] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-07 20:36:58.520] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-07 20:37:00.010] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-07 20:41:59.438] [info] Checking sleepy tabs
+[2019-08-07 20:46:59.436] [info] Checking sleepy tabs
+[2019-08-07 20:51:59.437] [info] Checking sleepy tabs
+[2019-08-07 20:56:59.437] [info] Checking sleepy tabs
+[2019-08-09 01:16:55.635] [info] Checking sleepy tabs
+[2019-08-09 01:37:50.440] [error] Error
+    at handle (/tmp/.mount_statioEpLXWW/resources/app.asar/app/auto-update/sagas.ts:48:46)
+    at handle.next (<anonymous>)
+    at next (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:322:27)
+    at proc (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:281:3)
+    at resolveIterator (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:467:5)
+    at runCallEffect (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:528:98)
+    at runEffect (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:402)
+    at next (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at proc (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:281:3)
+    at runForkEffect (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:565:19)
+    at runEffect (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:544)
+    at next (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at currCb (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:399:7)
+    at takeCb (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:477:108)
+    at Object.put (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:85:16)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:173:10
+    at ServiceObserver.onError (/tmp/.mount_statioEpLXWW/resources/app.asar/app/utils/sagas/index.ts:225:21)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/app/services/lib/class.ts:121:29
+    at RPCPeer.<anonymous> (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/stream-json-rpc/lib/peer.js:44:20)
+    at /tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:67
+    at new WrappedPromise (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at RPCPeer._handle (/tmp/.mount_statioEpLXWW/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:16)
+[2019-08-09 01:37:52.321] [info] Checking sleepy tabs
+[2019-08-09 01:42:52.321] [info] Checking sleepy tabs
+[2019-08-09 15:06:58.494] [info] Checking sleepy tabs
+[2019-08-09 15:11:58.493] [info] Checking sleepy tabs
+[2019-08-09 15:16:58.493] [info] Checking sleepy tabs
+[2019-08-09 15:21:58.493] [info] Checking sleepy tabs
+[2019-08-09 15:28:21.315] [info] Proxy : no settings detected
+[2019-08-09 15:28:23.947] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-09 15:28:23.969] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-09 15:28:23.970] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-09 15:28:24.253] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:28:24.264] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:28:24.426] [error] Error: Failed to fetch
+    at Object.exec (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/slack/src/_exec-browser.js:18:15)
+    at SlackTeam.<anonymous> (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:51:32)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:7:71
+    at new WrappedPromise (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at __awaiter (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:3:12)
+    at SlackTeam.process (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:49:16)
+    at SlackSearch.<anonymous> (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:122:50)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[2019-08-09 15:28:25.127] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at Object.error (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1021:52)
+    at notifySubscription (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:80
+    at Set.forEach (<anonymous>)
+    at Object.error (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:31)
+    at notifySubscription (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at notifySubscription (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/apollo-link-http/lib/httpLink.js:87:26
+    at Promise.propagateAslWrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at Promise.__asl_wrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31)
+    at proxyWrapper (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:527:23)
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:28:29.286] [error] Getting public IP and location did not work
+ Error: Query timed out
+    at DNS._ontimeout (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/dns-socket/index.js:99:18)
+    at ontimeout (/tmp/.mount_statiotOA3KI/resources/app.asar/node_modules/dns-socket/index.js:53:10)
+[2019-08-09 15:33:25.880] [info] Checking sleepy tabs
+[2019-08-09 15:36:29.665] [info] Proxy : no settings detected
+[2019-08-09 15:36:32.325] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-09 15:36:32.345] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-09 15:36:32.345] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-09 15:36:32.616] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:36:32.621] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:36:32.774] [error] Error: Failed to fetch
+    at Object.exec (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/slack/src/_exec-browser.js:18:15)
+    at SlackTeam.<anonymous> (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:51:32)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:7:71
+    at new WrappedPromise (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at __awaiter (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:3:12)
+    at SlackTeam.process (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:49:16)
+    at SlackSearch.<anonymous> (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:122:50)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:36:33.496] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at Object.error (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1021:52)
+    at notifySubscription (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:80
+    at Set.forEach (<anonymous>)
+    at Object.error (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:31)
+    at notifySubscription (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at notifySubscription (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/apollo-link-http/lib/httpLink.js:87:26
+    at Promise.propagateAslWrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at Promise.__asl_wrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31)
+    at proxyWrapper (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:527:23)
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-09 15:36:37.736] [error] Getting public IP and location did not work
+ Error: Query timed out
+    at DNS._ontimeout (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/dns-socket/index.js:99:18)
+    at ontimeout (/tmp/.mount_statioouDmRQ/resources/app.asar/node_modules/dns-socket/index.js:53:10)
+[2019-08-09 15:41:34.763] [info] Checking sleepy tabs
+[2019-08-09 15:46:34.760] [info] Checking sleepy tabs
+[2019-08-09 15:53:49.605] [info] Checking sleepy tabs
+[2019-08-13 17:17:06.206] [info] Proxy : no settings detected
+[2019-08-13 17:17:08.924] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-13 17:17:08.947] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-13 17:17:08.948] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-13 17:17:10.438] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioVjvG0S/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-13 17:22:08.815] [info] Checking sleepy tabs
+[2019-08-14 16:04:23.240] [info] Proxy : no settings detected
+[2019-08-14 16:04:25.986] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/.config/Station/show_release_notes'
+[2019-08-14 16:04:26.008] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/.config/Station/show_release_notes'
+[2019-08-14 16:04:26.009] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-14 16:04:27.441] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-14 16:09:27.988] [info] Checking sleepy tabs
+[2019-08-14 16:14:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:15:20.019] [error] TypeError: Cannot read property 'get' of null
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:81:25
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at getFirstValue (/tmp/.mount_statioOIAQsd/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:80:24)
+    at runCallEffect (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:524:19)
+    at runEffect (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:402)
+    at next (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at currCb (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:399:7)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:510:16
+    at exec (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:25:5)
+    at flush (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:66:5)
+    at asap (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:39:5)
+    at Array.<anonymous> (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:197:27)
+    at Object.emit (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:38:13)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-saga/lib/internal/middleware.js:73:21
+    at Object.dispatch (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/redux-thunk/lib/index.js:14:16)
+    at Peers.handler (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/shared-redux/dist/helpers/replayActionServer.js:11:13)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/shared-redux/dist/middleware/peers.js:96:16
+    at RPCPeer.<anonymous> (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/stream-json-rpc/lib/peer.js:44:20)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:67
+[2019-08-14 16:18:39.865] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioOIAQsd/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-14 16:19:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:24:27.986] [info] Checking sleepy tabs
+[2019-08-14 16:29:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:34:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:34:35.844] [info] [APP DATA] The file show_release_notes has been saved
+[2019-08-14 16:39:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:44:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:49:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:54:27.987] [info] Checking sleepy tabs
+[2019-08-14 16:59:27.991] [info] Checking sleepy tabs
+[2019-08-14 17:04:25.937] [info] [updater] Skipping check
+[2019-08-14 17:04:27.987] [info] Checking sleepy tabs
+[2019-08-14 17:09:27.987] [info] Checking sleepy tabs
+[2019-08-14 17:14:27.986] [info] Checking sleepy tabs
+[2019-08-14 17:19:27.986] [info] Checking sleepy tabs
+[2019-08-14 17:24:27.987] [info] Checking sleepy tabs
+[2019-08-14 17:29:27.987] [info] Checking sleepy tabs
+[2019-08-14 17:35:07.434] [info] Proxy : no settings detected
+[2019-08-14 17:35:10.143] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-14 17:35:10.615] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-14 17:35:11.931] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioVgWLWJ/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-14 17:40:12.181] [info] Checking sleepy tabs
+[2019-08-14 17:45:12.175] [info] Checking sleepy tabs
+[2019-08-14 20:04:10.720] [info] Checking sleepy tabs
+[2019-08-14 20:09:10.720] [info] Checking sleepy tabs
+[2019-08-14 20:14:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:19:11.325] [info] [APP DATA] The file show_release_notes has been saved
+[2019-08-14 20:19:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:24:11.608] [info] Checking sleepy tabs
+[2019-08-14 20:29:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:34:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:39:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:44:11.609] [info] Checking sleepy tabs
+[2019-08-14 20:49:09.507] [info] [updater] Skipping check
+[2019-08-14 20:49:11.609] [info] Checking sleepy tabs
+[2019-08-18 15:17:31.359] [info] Proxy : no settings detected
+[2019-08-18 15:17:34.100] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-18 15:17:34.577] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-18 15:17:35.891] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-18 15:22:36.144] [info] Checking sleepy tabs
+[2019-08-18 15:27:36.142] [info] Checking sleepy tabs
+[2019-08-18 15:32:36.149] [info] Checking sleepy tabs
+[2019-08-18 15:37:36.142] [info] Checking sleepy tabs
+[2019-08-18 15:42:36.142] [info] Checking sleepy tabs
+[2019-08-18 15:47:35.796] [info] [APP DATA] The file show_release_notes has been saved
+[2019-08-18 15:47:36.142] [info] Checking sleepy tabs
+[2019-08-19 10:58:53.861] [info] Checking sleepy tabs
+[2019-08-19 11:03:53.861] [info] Checking sleepy tabs
+[2019-08-19 11:08:53.861] [info] Checking sleepy tabs
+[2019-08-19 11:13:53.861] [info] Checking sleepy tabs
+[2019-08-19 11:18:53.860] [info] Checking sleepy tabs
+[2019-08-19 19:18:28.344] [info] [updater] Skipping check
+[2019-08-19 19:18:30.455] [info] Checking sleepy tabs
+[2019-08-19 19:23:30.912] [info] Checking sleepy tabs
+[2019-08-19 19:27:56.919] [error] Error: SequelizeTimeoutError: Insert error: [ApplicationProxy] Map { "applicationId": "dYlJdD-Mo", "manifestURL": "https://api.getstation.com/application-recipe/407/bxAppManifest.json", "installContext": [object Object], "activeTab": "dYlJdD-Mo/MRYP7MnzHD" }.
+Details: SQLITE_BUSY: database is locked
+    at MapStateProxy.<anonymous> (/tmp/.mount_statiokRS9ja/resources/app.asar/app/persistence/backend.ts:245:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/tslib/tslib.js:107:62)
+    at propagateAslWrapper (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/glue.js:188:31
+From previous event:
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/app/persistence/backend.ts:28:22
+    at new WrappedPromise (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at MapStateProxy.<anonymous> (/tmp/.mount_statiokRS9ja/resources/app.asar/app/persistence/backend.ts:26:20)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at MapStateProxy.set (/tmp/.mount_statiokRS9ja/resources/app.asar/app/persistence/backend.ts:22:24)
+    at ApiStorage.<anonymous> (/tmp/.mount_statiokRS9ja/resources/app.asar/app/store/storage.ts:34:38)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at ApiStorage.setItem (/tmp/.mount_statiokRS9ja/resources/app.asar/app/store/storage.ts:32:24)
+    at /tmp/.mount_statiokRS9ja/resources/app.asar/node_modules/redux-persist/lib/createPersistor.js:82:54
+[2019-08-19 19:28:30.913] [info] Checking sleepy tabs
+[2019-08-19 19:33:30.971] [info] Checking sleepy tabs
+[2019-08-19 19:38:30.913] [info] Checking sleepy tabs
+[2019-08-19 19:43:30.913] [info] Checking sleepy tabs
+[2019-08-19 19:48:28.799] [info] [updater] Skipping check
+[2019-08-19 19:48:30.912] [info] Checking sleepy tabs
+[2019-08-19 19:53:30.912] [info] Checking sleepy tabs
+[2019-08-19 19:58:30.912] [info] Checking sleepy tabs
+[2019-08-19 20:03:30.912] [info] Checking sleepy tabs
+[2019-08-19 20:08:30.912] [info] Checking sleepy tabs
+[2019-08-19 20:13:30.913] [info] Checking sleepy tabs
+[2019-08-19 20:18:28.800] [info] [updater] Skipping check
+[2019-08-19 20:18:30.914] [info] Checking sleepy tabs
+[2019-08-19 20:23:30.912] [info] Checking sleepy tabs
+[2019-08-19 20:28:30.913] [info] Checking sleepy tabs
+[2019-08-19 20:33:30.913] [info] Checking sleepy tabs
+[2019-08-19 20:38:30.912] [info] Checking sleepy tabs
+[2019-08-19 20:43:30.913] [info] Checking sleepy tabs
+[2019-08-19 20:48:28.800] [info] [updater] Skipping check
+[2019-08-19 20:48:30.914] [info] Checking sleepy tabs
+[2019-08-19 20:53:30.913] [info] Checking sleepy tabs
+[2019-08-19 20:58:30.913] [info] Checking sleepy tabs
+[2019-08-19 21:03:30.913] [info] Checking sleepy tabs
+[2019-08-19 21:08:55.413] [info] Proxy : no settings detected
+[2019-08-19 21:08:58.171] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-19 21:08:58.693] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-19 21:08:59.908] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-19 21:14:00.288] [info] Checking sleepy tabs
+[2019-08-19 21:19:00.286] [info] Checking sleepy tabs
+[2019-08-19 21:24:00.285] [info] Checking sleepy tabs
+[2019-08-19 21:29:00.286] [info] Checking sleepy tabs
+[2019-08-19 21:34:00.286] [info] Checking sleepy tabs
+[2019-08-19 21:38:59.822] [info] [APP DATA] The file show_release_notes has been saved
+[2019-08-19 21:39:00.286] [info] Checking sleepy tabs
+[2019-08-19 21:44:00.286] [info] Checking sleepy tabs
+[2019-08-19 21:49:00.285] [info] Checking sleepy tabs
+[2019-08-20 18:41:37.595] [info] Checking sleepy tabs
+[2019-08-20 18:46:37.596] [info] Checking sleepy tabs
+[2019-08-20 18:51:37.594] [info] Checking sleepy tabs
+[2019-08-20 18:56:35.408] [info] [updater] Skipping check
+[2019-08-20 18:56:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:01:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:06:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:11:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:16:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:21:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:26:35.409] [info] [updater] Skipping check
+[2019-08-20 19:26:37.597] [info] Checking sleepy tabs
+[2019-08-20 19:31:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:36:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:41:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:46:37.596] [info] Checking sleepy tabs
+[2019-08-20 19:51:37.595] [info] Checking sleepy tabs
+[2019-08-20 19:56:35.415] [info] [updater] Skipping check
+[2019-08-20 19:56:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:01:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:06:37.594] [info] Checking sleepy tabs
+[2019-08-20 20:11:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:16:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:21:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:26:35.409] [info] [updater] Skipping check
+[2019-08-20 20:26:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:31:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:36:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:41:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:46:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:51:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:56:35.409] [info] [updater] Skipping check
+[2019-08-20 20:56:37.595] [info] Checking sleepy tabs
+[2019-08-20 20:56:43.593] [error] Getting public IP and location did not work
+ Error: Query timed out
+    at DNS._ontimeout (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/dns-socket/index.js:99:18)
+    at ontimeout (/tmp/.mount_statioOa7qMS/resources/app.asar/node_modules/dns-socket/index.js:53:10)
+[2019-08-20 20:58:32.579] [info] Proxy : no settings detected
+[2019-08-20 20:58:35.315] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-20 20:58:35.815] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-20 20:58:37.067] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statio4NFcGG/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-20 21:23:19.626] [info] Checking sleepy tabs
+[2019-08-20 21:28:19.629] [info] Checking sleepy tabs
+[2019-08-22 14:10:22.296] [info] Proxy : no settings detected
+[2019-08-22 14:10:24.991] [error] [APP DATA] Error: ENOENT: no such file or directory, stat '/home/hunter/repos/dotfiles/.config/Station/show_release_notes'
+[2019-08-22 14:10:25.012] [error] [APP DATA] Error: ENOENT: no such file or directory, unlink '/home/hunter/repos/dotfiles/.config/Station/show_release_notes'
+[2019-08-22 14:10:25.013] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-22 14:10:25.275] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-22 14:10:25.292] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1238:44
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1550:29
+    at Set.forEach (<anonymous>)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1548:36
+    at Map.forEach (<anonymous>)
+    at QueryManager.broadcastQueries (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1546:26)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1152:51
+    at propagateAslWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-22 14:10:25.484] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/notion/resources.js:40:19)
+    at Object.<anonymous> (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:26:218)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/notion/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-22 14:10:25.496] [error] Error: Failed to fetch
+    at Object.exec (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/slack/src/_exec-browser.js:18:15)
+    at SlackTeam.<anonymous> (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:51:32)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:7:71
+    at new WrappedPromise (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at __awaiter (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:3:12)
+    at SlackTeam.process (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search/slack-team.js:49:16)
+    at SlackSearch.<anonymous> (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:122:50)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@getstation/services/lib/slack/search.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-22 14:10:26.165] [error] Error: Network error: Failed to fetch
+    at new ApolloError (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:63:32)
+    at Object.error (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:1021:52)
+    at notifySubscription (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:80
+    at Set.forEach (<anonymous>)
+    at Object.error (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-client/bundle.umd.js:860:31)
+    at notifySubscription (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at notifySubscription (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:130:18)
+    at onNotify (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:161:3)
+    at SubscriptionObserver.error (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/zen-observable/lib/Observable.js:220:7)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/apollo-link-http/lib/httpLink.js:87:26
+    at Promise.propagateAslWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at Promise.__asl_wrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31)
+    at proxyWrapper (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:527:23)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/glue.js:188:31
+[2019-08-22 14:10:30.669] [error] Getting public IP and location did not work
+ Error: Query timed out
+    at DNS._ontimeout (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/dns-socket/index.js:99:18)
+    at ontimeout (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/dns-socket/index.js:53:10)
+[2019-08-22 14:15:26.960] [info] Checking sleepy tabs
+[2019-08-22 14:20:26.410] [info] Checking sleepy tabs
+[2019-08-22 14:25:26.409] [info] Checking sleepy tabs
+[2019-08-22 14:30:26.411] [info] Checking sleepy tabs
+[2019-08-22 14:54:47.632] [info] Checking sleepy tabs
+[2019-08-22 14:59:47.633] [info] Checking sleepy tabs
+[2019-08-22 15:00:25.708] [info] [APP DATA] The file show_release_notes has been saved
+[2019-08-22 15:04:47.633] [info] Checking sleepy tabs
+[2019-08-22 15:09:47.633] [info] Checking sleepy tabs
+[2019-08-22 15:14:48.366] [info] Checking sleepy tabs
+[2019-08-22 15:19:48.369] [info] Checking sleepy tabs
+[2019-08-22 15:24:48.368] [info] Checking sleepy tabs
+[2019-08-22 15:29:46.349] [info] [updater] Skipping check
+[2019-08-22 15:29:48.367] [info] Checking sleepy tabs
+[2019-08-22 15:34:48.398] [info] Checking sleepy tabs
+[2019-08-22 15:39:48.368] [info] Checking sleepy tabs
+[2019-08-22 15:44:48.379] [info] Checking sleepy tabs
+[2019-08-22 15:49:48.369] [info] Checking sleepy tabs
+[2019-08-22 15:54:48.367] [info] Checking sleepy tabs
+[2019-08-22 15:59:46.350] [info] [updater] Skipping check
+[2019-08-22 15:59:48.366] [info] Checking sleepy tabs
+[2019-08-22 16:04:48.367] [info] Checking sleepy tabs
+[2019-08-22 16:09:48.367] [info] Checking sleepy tabs
+[2019-08-22 16:14:48.367] [info] Checking sleepy tabs
+[2019-08-22 16:19:48.367] [info] Checking sleepy tabs
+[2019-08-22 16:24:48.368] [info] Checking sleepy tabs
+[2019-08-22 16:29:46.350] [info] [updater] Skipping check
+[2019-08-22 16:29:48.367] [info] Checking sleepy tabs
+[2019-08-23 11:54:57.437] [error] Getting public IP and location did not work
+ Error: Query timed out
+    at DNS._ontimeout (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/dns-socket/index.js:99:18)
+    at ontimeout (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/dns-socket/index.js:53:10)
+[2019-08-23 11:59:43.271] [info] Checking sleepy tabs
+[2019-08-23 15:35:41.911] [error] TypeError: Cannot read property 'get' of null
+    at /tmp/.mount_statio2fOM19/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:81:25
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/tslib/tslib.js:110:75
+    at new WrappedPromise (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/async-listener/es6-wrapped-promise.js:13:18)
+    at Object.__awaiter (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/tslib/tslib.js:106:16)
+    at getFirstValue (/tmp/.mount_statio2fOM19/resources/app.asar/app/applications/manifest-provider/manifest-provider.ts:80:24)
+    at runCallEffect (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:524:19)
+    at runEffect (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:446:402)
+    at next (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:326:9)
+    at currCb (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:399:7)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/proc.js:510:16
+    at exec (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:25:5)
+    at flush (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:66:5)
+    at asap (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/scheduler.js:39:5)
+    at Array.<anonymous> (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:197:27)
+    at Object.emit (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/channel.js:38:13)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-saga/lib/internal/middleware.js:73:21
+    at Object.dispatch (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/redux-thunk/lib/index.js:14:16)
+    at Peers.handler (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/shared-redux/dist/helpers/replayActionServer.js:11:13)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/shared-redux/dist/middleware/peers.js:96:16
+    at RPCPeer.<anonymous> (/tmp/.mount_statio2fOM19/resources/app.asar/node_modules/stream-json-rpc/lib/peer.js:44:20)
+    at /tmp/.mount_statio2fOM19/resources/app.asar/node_modules/@magne4000/json-rpc-peer/dist/index.js:66:67
+[2019-08-23 15:39:59.155] [info] Checking sleepy tabs
+[2019-08-23 15:44:59.154] [info] Checking sleepy tabs
+[2019-08-23 15:49:59.155] [info] Checking sleepy tabs
+[2019-08-23 15:54:59.155] [info] Checking sleepy tabs
+[2019-08-23 15:59:57.137] [info] [updater] Skipping check
+[2019-08-23 15:59:59.154] [info] Checking sleepy tabs
+[2019-08-23 16:04:59.155] [info] Checking sleepy tabs
+[2019-08-23 16:09:59.155] [info] Checking sleepy tabs
+[2019-08-24 14:39:12.439] [info] Checking sleepy tabs
+[2019-08-24 14:44:12.438] [info] Checking sleepy tabs
+[2019-08-24 17:34:06.528] [info] Checking sleepy tabs
+[2019-08-24 17:39:04.510] [info] [updater] Skipping check
+[2019-08-24 17:39:06.527] [info] Checking sleepy tabs
+[2019-08-24 17:58:18.047] [info] Checking sleepy tabs
+[2019-08-24 18:03:18.047] [info] Checking sleepy tabs
+[2019-08-24 18:08:18.047] [info] Checking sleepy tabs
+[2019-08-25 13:41:11.253] [info] Checking sleepy tabs
+[2019-08-25 13:46:11.247] [info] Checking sleepy tabs
+[2019-08-25 13:51:09.228] [info] [updater] Skipping check
+[2019-08-25 13:51:11.246] [info] Checking sleepy tabs
+[2019-08-25 13:56:11.247] [info] Checking sleepy tabs
+[2019-08-25 14:01:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:06:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:11:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:16:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:21:09.229] [info] [updater] Skipping check
+[2019-08-25 14:21:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:26:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:31:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:36:11.250] [info] Checking sleepy tabs
+[2019-08-25 14:41:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:46:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:51:09.229] [info] [updater] Skipping check
+[2019-08-25 14:51:11.246] [info] Checking sleepy tabs
+[2019-08-25 14:56:11.246] [info] Checking sleepy tabs
+[2019-08-25 15:01:11.246] [info] Checking sleepy tabs
+[2019-08-25 15:06:11.246] [info] Checking sleepy tabs
+[2019-08-25 15:11:11.246] [info] Checking sleepy tabs
+[2019-08-25 15:16:11.246] [info] Checking sleepy tabs
+[2019-08-25 15:21:09.228] [info] [updater] Skipping check
+[2019-08-25 15:21:11.246] [info] Checking sleepy tabs
+[2019-08-25 16:54:13.470] [info] Checking sleepy tabs
+[2019-08-25 16:59:13.469] [info] Checking sleepy tabs
+[2019-08-25 17:04:13.470] [info] Checking sleepy tabs

@@ -1,0 +1,6 @@
+2019/08/22-14:15:23.460 539 Reusing MANIFEST /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/08/22-14:15:23.460 539 Recovering log #3
+2019/08/22-14:15:23.543 539 Reusing old log /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2019/08/23-16:07:28.379 8f8 Level-0 table #5: started
+2019/08/23-16:07:28.420 8f8 Level-0 table #5: 1452785 bytes OK
+2019/08/23-16:07:28.442 8f8 Delete type=0 #3
