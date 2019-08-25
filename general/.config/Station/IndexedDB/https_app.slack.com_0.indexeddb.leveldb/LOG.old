@@ -1,3 +1,13 @@
-2019/08/20-20:58:53.131 534 Reusing MANIFEST /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/08/20-20:58:53.132 534 Recovering log #13
-2019/08/20-20:58:53.135 534 Reusing old log /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000013.log 
+2019/08/22-14:10:42.711 4f3 Reusing MANIFEST /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/08/22-14:10:42.711 4f3 Recovering log #13
+2019/08/22-14:10:42.723 4f3 Reusing old log /home/hunter/repos/dotfiles/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000013.log 
+2019/08/22-14:15:26.490 8f8 Compacting 2@0 + 1@1 files
+2019/08/22-14:15:26.544 8f8 Generated table #16@0: 7 keys, 223058 bytes
+2019/08/22-14:15:26.544 8f8 Compacted 2@0 + 1@1 files => 223058 bytes
+2019/08/22-14:15:26.553 8f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/08/22-14:15:26.553 8f8 Delete type=2 #11
+2019/08/22-14:15:26.553 8f8 Delete type=2 #8
+2019/08/22-14:15:26.553 8f8 Delete type=2 #14
+2019/08/24-14:34:57.364 8f8 Level-0 table #18: started
+2019/08/24-14:34:57.413 8f8 Level-0 table #18: 1470924 bytes OK
+2019/08/24-14:34:57.425 8f8 Delete type=0 #13

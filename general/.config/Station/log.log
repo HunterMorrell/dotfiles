@@ -1137,3 +1137,34 @@ From previous event:
 [2019-08-25 16:54:13.470] [info] Checking sleepy tabs
 [2019-08-25 16:59:13.469] [info] Checking sleepy tabs
 [2019-08-25 17:04:13.470] [info] Checking sleepy tabs
+[2019-08-25 17:09:13.470] [info] Checking sleepy tabs
+[2019-08-25 17:14:13.470] [info] Checking sleepy tabs
+[2019-08-25 17:19:11.452] [info] [updater] Skipping check
+[2019-08-25 17:19:13.470] [info] Checking sleepy tabs
+[2019-08-25 17:24:13.470] [info] Checking sleepy tabs
+[2019-08-25 17:30:38.930] [info] Proxy : no settings detected
+[2019-08-25 17:30:41.652] [info] [APP DATA] file show_release_notes deleted successfully
+[2019-08-25 17:30:43.582] [error] TypeError: protectedProvidersWeakMap.get(...).setOpenHandler is not a function
+    at ResourcesConsumer.setOpenHandler (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/@getstation/sdk/lib/resources/consumer.js:11:52)
+    at Object.exports.setResourcesHandlers (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/@getstation/services/lib/slack/resources.js:89:19)
+    at Object.<anonymous> (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:26:291)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/@getstation/services/lib/slack/main.js:4:58)
+    at propagateAslWrapper (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/async-listener/index.js:502:23)
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/async-listener/index.js:539:70
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/async-listener/glue.js:188:31
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:102:21
+    at executorPatched (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:37:21)
+    at Promise._execute (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/debuggability.js:303:9)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/promise.js:483:18)
+    at Promise._resolveFromExecutor (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/cls-bluebird/lib/shimOnCancel.js:41:40)
+    at new Promise (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/promise.js:79:10)
+    at Query.run (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/sequelize/lib/dialects/sqlite/query.js:100:12)
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/sequelize/lib/sequelize.js:558:20
+    at /tmp/.mount_statiov8qr06/resources/app.asar/node_modules/continuation-local-storage/context.js:84:17
+    at tryCatcher (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/tmp/.mount_statiov8qr06/resources/app.asar/node_modules/bluebird/js/release/promise.js:569:18)
+[2019-08-25 17:35:43.732] [info] Checking sleepy tabs

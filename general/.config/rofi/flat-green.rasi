@@ -31,12 +31,7 @@ window {
 mainbox {
    background-color: @blackdarkest;
    spacing:0px;
-   children: [inputbar, message, mode-switcher, listview];
-}
-
-message {
-   padding: 6px 10px;
-   background-color:@blackwidget;
+   children: [inputbar, listview];
 }
 
 textbox {
