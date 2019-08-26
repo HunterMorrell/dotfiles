@@ -1,7 +1,7 @@
 .gitconfig
-general/.config/Station/*
-general/.config/pulse/*
-general/.config/dconf/*
-general/.config/goa*/*
-general/.config/gtk*/*
+/general/.config/Station/*
+/general/.config/pulse/*
+/general/.config/dconf/*
+/general/.config/goa*/*
+/general/.config/gtk*/*
 
