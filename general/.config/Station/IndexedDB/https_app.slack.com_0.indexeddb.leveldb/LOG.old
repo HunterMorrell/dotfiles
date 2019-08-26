@@ -1,6 +1,0 @@
-2019/08/25-17:30:59.680 53a Reusing MANIFEST /home/hunter/repos/dotfiles/general/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/08/25-17:30:59.680 53a Recovering log #17
-2019/08/25-17:30:59.689 53a Reusing old log /home/hunter/repos/dotfiles/general/.config/Station/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000017.log 
-2019/08/25-19:32:11.179 4c47 Level-0 table #21: started
-2019/08/25-19:32:11.212 4c47 Level-0 table #21: 1530479 bytes OK
-2019/08/25-19:32:11.224 4c47 Delete type=0 #17
