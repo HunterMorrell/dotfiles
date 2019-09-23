@@ -64,6 +64,8 @@ git
 git-extras
 common-aliases
 command-not-found
+zsh-syntax-highlighting
+zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,5 +102,7 @@ source $ZSH/oh-my-zsh.sh
 if which ruby >/dev/null && which gem >/dev/null; then
   PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
+
+PATH="$PATH:/home/hunter/AppImages"
 
 source ~/.aliases

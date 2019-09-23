@@ -4,4 +4,7 @@
 /general/.config/dconf/*
 /general/.config/goa*/*
 /general/.config/gtk*/*
-
+/general/.config/GIMP/*
+/general/.config/QtProject.conf
+/general/.config/RadareOrg/*
+/general/.config/libreoffice/*
