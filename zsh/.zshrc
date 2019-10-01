@@ -106,3 +106,4 @@ fi
 PATH="$PATH:/home/hunter/AppImages"
 
 source ~/.aliases
+export PATH=~/bin:$PATH
