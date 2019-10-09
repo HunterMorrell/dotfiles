@@ -15,21 +15,23 @@ packages="zsh polybar radare2 git alsa-utils build-essential cmake curl dpkg fwu
 #
 ####################
 
-echo "Installing required packages"
-platform=$(uname);
-# If the platform is Linux, try an apt-get to install zsh and then recurse
-if [[ $platform == 'Linux' ]]; then
-  if [[ -f /etc/redhat-release ]]; then
-		for package in $packages; do
-			sudo dnf install $package
-		done
-  fi
-  if [[ -f /etc/debian_version ]]; then
-		for package in $packages; do
-			sudo apt -y install $package
-		done
-  fi
-fi
+# This will be automated eventually, but I'll stick with just doing it manually for now.
+
+# echo "Installing required packages"
+# platform=$(uname);
+# # If the platform is Linux, try an apt-get to install zsh and then recurse
+# if [[ $platform == 'Linux' ]]; then
+#   if [[ -f /etc/redhat-release ]]; then
+# 		for package in $packages; do
+# 			sudo dnf install $package
+# 		done
+#   fi
+#   if [[ -f /etc/debian_version ]]; then
+# 		for package in $packages; do
+# 			sudo apt -y install $package
+# 		done
+#   fi
+# fi
 
 
 
@@ -68,9 +70,6 @@ git clone git@github.com:haikarainen/light.git
 
 echo "UserCSS-Styles"
 git clone git@github.com:HunterMorrell/UserCSS-Styles.git
-
-echo "ssh-ident"
-mkdir -p ~/bin; wget -O ~/bin/ssh goo.gl/MoJuKB; chmod 0755 ~/bin/ssh
 
 echo "polybar"
 git clone --recursive https://github.com/polybar/polybar
