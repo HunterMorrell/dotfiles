@@ -63,7 +63,7 @@ git clone git@github.com:ryanoasis/nerd-fonts.git
 ./nerd-fonts/install.sh
 
 echo "dotfiles"
-git clone --recurse-submodules git@github.com:HunterMorrell/dotfiles.git
+git clone --recursive git@github.com:HunterMorrell/dotfiles.git
 
 echo "light"
 git clone git@github.com:haikarainen/light.git
