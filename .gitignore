@@ -8,3 +8,7 @@
 /general/.config/QtProject.conf
 /general/.config/RadareOrg/*
 /general/.config/libreoffice/*
+/general/.config/VirtualBox/*
+/general/.config/deluge/*
+/general/.config/dunst/*
+/general/.config/transmission/*
