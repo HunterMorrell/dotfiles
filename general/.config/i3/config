@@ -161,8 +161,8 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
 
-bindsym XF86MonBrightnessDown exec light -U 10
-bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 5
+bindsym XF86MonBrightnessUp exec light -A 5
 # bindsym Print exec /home/hunter/start_GTwifi.sh
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-

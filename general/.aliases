@@ -21,10 +21,10 @@
       colorflag="-G"
    fi
 # Always enable colored `grep` output
-   alias grep="grep --color=auto "
+   alias grep='grep --color=auto '
 
 # Enable aliases to be sudo’ed
-   alias sudo="sudo "
+   alias sudo='sudo '
 
 # copy file interactive
    alias cp='cp -i'
