@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 ####################
 #
 # Variables
@@ -7,7 +7,19 @@
 
 repos_dir=~/repos/
 dotfiles_dir=~/repos/dotfiles
-packages="zsh polybar radare2 git alsa-utils build-essential cmake curl dpkg fwupd gcc gdb i3 i3lock light neovim python3 python3-pip ranger rofi ruby rxvt-unicode vim cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm alsa-lib i3-wm wireless_tools"
+primary_packages="zsh git curl wget vim neovim python python-pip python-pynvim gcc ruby"
+i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm alsa-lib wireless_tools rofi"
+
+
+####################
+#
+# You have a choice...
+#
+####################
+
+#echo "Do you want the full install or would you like customization options? [full\\options]"
+#read $install_answer
+
 
 ####################
 #
@@ -15,24 +27,61 @@ packages="zsh polybar radare2 git alsa-utils build-essential cmake curl dpkg fwu
 #
 ####################
 
-# This will be automated eventually, but I'll stick with just doing it manually for now.
+echo "Do you want to install packages? [yes or no]"
+read package_answer
+if [[ $package_answer == "yes" ]] || [[ $package_answer == "y" ]]; then
+	echo "Do you want i3 and i3-related packages to be installed? [yes or no]"
+	read i3_answer
+	platform=$(uname);
+	# If the platform is Linux, try an apt-get to install zsh and then recurse
+	if [[ $platform == 'Linux' ]]; then
+		if [[ -f /bin/pacman ]]; then
+			sudo pacman -S --needed $primary_packages
+ 	 		if [[ $i3_answer == "yes" ]] || [[ $i3_answer == "y" ]]; then
+				sudo pacman -S --needed $i3_packages
+			fi
+		fi
+ 		if [[ -f /bin/apt ]]; then
+			for package in $primary_packages; do
+				sudo apt install $package
+			done
+			if [[ $i3_answer == "yes" ]] || [[ $i3_answer == "y" ]]; then
+				for package in $i3_packages; do
+					sudo apt install $package
+				done
+			fi
+		fi
+	fi
+fi
 
-# echo "Installing required packages"
-# platform=$(uname);
-# # If the platform is Linux, try an apt-get to install zsh and then recurse
-# if [[ $platform == 'Linux' ]]; then
-#   if [[ -f /etc/redhat-release ]]; then
-# 		for package in $packages; do
-# 			sudo dnf install $package
-# 		done
-#   fi
-#   if [[ -f /etc/debian_version ]]; then
-# 		for package in $packages; do
-# 			sudo apt -y install $package
-# 		done
-#   fi
-# fi
+####################
+#
+# Setting up SSH Keys
+#
+####################
 
+echo "Open another terminal and create your SSH key (if you already have, just ignore this) with: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
+echo "Don't forget to add it to Github! Press <ENTER> to continue once this has been done."
+read pass_answer
+
+####################
+#
+# Setting up SSH-Ident
+#
+####################
+
+echo "Do you want to use SSH-Ident (github.com/ccontavalli/ssh-ident) to manage your SSH logins? [yes or no]"
+read ssh_answer
+if [[ $ssh_answer == "yes" ]] || [[ $ssh_answer == "y" ]]; then
+	mkdir -p ~/bin; wget -O ~/bin/ssh https://raw.githubusercontent.com/ccontavalli/ssh-ident/master/ssh-ident; chmod 0755 ~/bin/ssh
+	if [[ $(echo $SHELL) == $(which zsh) ]]; then
+		echo 'export PATH=~/bin:$PATH' >> ~/.zshrc
+		source ~/.zshrc
+	else
+		echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
+		source ~/.bashrc
+	fi
+fi
 
 
 ####################
@@ -42,11 +91,7 @@ packages="zsh polybar radare2 git alsa-utils build-essential cmake curl dpkg fwu
 ####################
 
 echo "Creating directory structure"
-mkdir ~/repos
-mkdir ~/AppImages
-mkdir ~/ISOs
-mkdir ~/security
-mkdir /virtual_machines
+mkdir $repos_dir
 
 
 ####################
@@ -56,27 +101,33 @@ mkdir /virtual_machines
 ####################
 
 echo "Cloning and installing repos"
-cd ~/repos
+cd $repos_dir
 
-echo "Nerd Fonts"
-git clone git@github.com:ryanoasis/nerd-fonts.git
-./nerd-fonts/install.sh
+echo "Do you want to install Nerd Fonts (github.com/ryanoasis/nerd-fonts)? [yes or no]"
+read fonts_answer
+if [[ $fonts_answer == "yes" ]] || [[ $fonts_answer == "y" ]]; then
+	git clone git@github.com:ryanoasis/nerd-fonts.git
+	./nerd-fonts/install.sh
+fi
 
-echo "dotfiles"
-git clone --recursive git@github.com:HunterMorrell/dotfiles.git
+echo "Do you want to install dotfiles? [yes or no]"
+read dotfiles_answer
+if [[ $dotfiles_answer == "yes" ]] || [[ $dotfiles_answer == "y" ]]; then
+	git clone --recurse-submodules git@github.com:HunterMorrell/dotfiles.git
+fi
 
-echo "light"
-git clone git@github.com:haikarainen/light.git
+#echo "light"
+#git clone git@github.com:haikarainen/light.git
 
-echo "UserCSS-Styles"
-git clone git@github.com:HunterMorrell/UserCSS-Styles.git
+#echo "UserCSS-Styles"
+#git clone git@github.com:HunterMorrell/UserCSS-Styles.git
 
-echo "polybar"
-git clone --recursive https://github.com/polybar/polybar
-cd polybar
-sudo ./build.sh
+#echo "polybar"
+#git clone --recursive https://github.com/polybar/polybar
+#cd polybar
+#sudo ./build.sh
 
-chmod +x ~/repos/dotfiles/general/colorls_install.sh && ~/repos/dotfiles/general/colorls_install.sh
+
 
 
 ####################
@@ -85,32 +136,35 @@ chmod +x ~/repos/dotfiles/general/colorls_install.sh && ~/repos/dotfiles/general
 #
 ####################
 
-echo "Configuring ZSH"
-
-# Test to see if zshell is installed.  If it is:
-if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
-    # Clone my oh-my-zsh repository from GitHub only if it isn't already present
-    if [[ ! -d $dir/oh-my-zsh/ ]]; then
-        sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-    fi
-    # Set the default shell to zsh if it isn't currently set to zsh
-    if [[ ! $(echo $SHELL) == $(which zsh) ]]; then
-        chsh -s $(which zsh)
-    fi
-else
-    # If zsh isn't installed, get the platform of the current machine
-    platform=$(uname);
-    # If the platform is Linux, try an apt-get to install zsh and then recurse
-    if [[ $platform == 'Linux' ]]; then
-        if [[ -f /etc/redhat-release ]]; then
-            sudo dnf -y install zsh
-        fi
-        if [[ -f /etc/debian_version ]]; then
-            sudo apt -y install zsh
-        fi
-    fi
+echo "Do you want to install and configure ZSH with Oh-My-ZSH? [yes or no]"
+read zsh_answer
+if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
+	echo "Once this finishes, it might put you in a new shell. If you see a prompt and the script doesn't continue, just enter 'exit' (without the single quotes) and hit enter. Press any key and enter to continue."
+	read null_answer
+	# Test to see if zshell is installed.  If it is:
+	if [[ -f /bin/zsh ]] || [[ -f /usr/bin/zsh ]]; then
+    		# Clone my oh-my-zsh repository from GitHub only if it isn't already present
+    		if [[ ! -d $dir/oh-my-zsh/ ]]; then
+        		sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+    		fi
+    		# Set the default shell to zsh if it isn't currently set to zsh
+    		if [[ ! $(echo $SHELL) == $(which zsh) ]]; then
+        		chsh -s $(which zsh)
+    		fi
+	else
+	    	# If zsh isn't installed, get the platform of the current machine
+    		platform=$(uname);
+    		# If the platform is Linux, try an apt-get to install zsh and then recurse
+    		if [[ $platform == 'Linux' ]]; then
+        		if [[ -f /etc/redhat-release ]]; then
+            			sudo dnf -y install zsh
+        		fi
+        		if [[ -f /etc/debian_version ]]; then
+            			sudo apt -y install zsh
+       			fi
+    		fi
+	fi
 fi
-
 
 ###################
 #
@@ -118,30 +172,41 @@ fi
 #
 ####################
 
-echo "Symlinking"
+echo "Symlinking..."
 
 echo "Home"
 cd ~/repos/dotfiles/general
 ln -sf ~/repos/dotfiles/general/.aliases ~
-ln -sf ~/repos/dotfiles/general/.config ~
+ln -sf ~/repos/dotfiles/general/.config/* ~/.config/
 ln -sf ~/repos/dotfiles/general/.exports ~
 ln -sf ~/repos/dotfiles/general/.xinitrc ~
 ln -sf ~/repos/dotfiles/general/.Xresources ~
 ln -sf ~/repos/dotfiles/general/.xserverrc ~
 
-echo "Vim"
-ln -sf ~/repos/dotfiles/vim ~
-mv ~/vim ~/.vim
-cd ~/repos/dotfiles/vim
-ln -sf ~/repos/dotfiles/vim/.vimrc ~
-ln -sf ~/repos/dotfiles/vim/colors ~/.local/share/nvim/site/
-ln -sf ~/repos/dotfiles/vim/pack ~/.local/share/nvim/site/
 
-echo "zsh"
-cd ~/repos/dotfiles/zsh
-ln -sf ~/repos/dotfiles/zsh/.zshrc ~
-ln -sf ~/repos/dotfiles/zsh/.zprofile ~
+echo "Do you want to symlink the Vim dotfiles? [yes or no]"
+read vim_answer
+if [[ $vim_answer == "yes" ]] || [[ $vim_answer == "y" ]]; then
+	echo "Vim"
+	ln -sf ~/repos/dotfiles/vim ~
+	mv ~/vim ~/.vim
+	cd ~/repos/dotfiles/vim
+	ln -sf ~/repos/dotfiles/vim/.vimrc ~
+	if [ ! -d "~/.local/share/nvim/site/" ]; then
+		mkdir ~/.local/share/nvim/site/
+	fi	
+	ln -sf ~/repos/dotfiles/vim/colors ~/.local/share/nvim/site/
+	ln -sf ~/repos/dotfiles/vim/pack ~/.local/share/nvim/site/
+fi
 
+echo "Do you want to symlink the ZSH dotfiles? [yes or no]"
+read zsh_answer
+if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
+	echo "zsh"
+	cd ~/repos/dotfiles/zsh
+	ln -sf ~/repos/dotfiles/zsh/.zshrc ~
+	ln -sf ~/repos/dotfiles/zsh/.zprofile ~
+fi
 
 ####################
 #
