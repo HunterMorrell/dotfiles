@@ -27,10 +27,12 @@ i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-ut
 #
 ####################
 
-curl https://raw.githubusercontent.com/HunterMorrell/dotfiles/master/install_packages.sh > installpackages.sh
+curl -s https://raw.githubusercontent.com/HunterMorrell/dotfiles/master/install_packages.sh > install_packages.sh
 chmod +x ./install_packages.sh
 ./install_packages.sh
 rm ./install_packages.sh
+
+echo ""
 
 ####################
 #
@@ -41,6 +43,8 @@ rm ./install_packages.sh
 echo "Open another terminal and create your SSH key (if you already have, just ignore this) with: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 echo "Don't forget to add it to Github! Press <ENTER> to continue once this has been done."
 read pass_answer
+
+echo ""
 
 ####################
 #
@@ -59,6 +63,8 @@ if [[ $ssh_answer == "yes" ]] || [[ $ssh_answer == "y" ]]; then
 	fi
 fi
 
+echo ""
+
 
 ####################
 #
@@ -68,6 +74,8 @@ fi
 
 echo "Creating directory structure"
 mkdir $repos_dir
+
+echo ""
 
 
 ####################
@@ -103,7 +111,7 @@ fi
 #cd polybar
 #sudo ./build.sh
 
-
+echo ""
 
 
 ####################
@@ -141,6 +149,9 @@ if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
     		fi
 	fi
 fi
+
+echo ""
+
 
 ###################
 #
@@ -183,6 +194,8 @@ if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
 	ln -sf ~/repos/dotfiles/zsh/.zshrc ~
 	ln -sf ~/repos/dotfiles/zsh/.zprofile ~
 fi
+
+echo ""
 
 ####################
 #
