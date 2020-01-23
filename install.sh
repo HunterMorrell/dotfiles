@@ -27,7 +27,7 @@ i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-ut
 #
 ####################
 
-curl https://raw.githubusercontent.com/HunterMorrell/dotfiles/master/install_packages.sh
+curl https://raw.githubusercontent.com/HunterMorrell/dotfiles/master/install_packages.sh > installpackages.sh
 chmod +x ./install_packages.sh
 ./install_packages.sh
 rm ./install_packages.sh
