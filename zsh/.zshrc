@@ -69,7 +69,6 @@ command-not-found
 fast-syntax-highlighting
 zsh-autosuggestions
 colored-man-pages
-dotpyvenv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -110,4 +109,3 @@ PATH="$PATH:/home/hunter/AppImages"
 
 source ~/.aliases
 
-source $(dirname $(gem which colorls))/tab_complete.sh
