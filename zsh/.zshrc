@@ -109,4 +109,5 @@ fi
 PATH="$PATH:/home/hunter/AppImages"
 
 source ~/.aliases
-export PATH=~/bin:$PATH
+
+source $(dirname $(gem which colorls))/tab_complete.sh
