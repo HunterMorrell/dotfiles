@@ -56,12 +56,6 @@ echo "Do you want to use SSH-Ident (github.com/ccontavalli/ssh-ident) to manage 
 read ssh_answer
 if [[ $ssh_answer == "yes" ]] || [[ $ssh_answer == "y" ]]; then
 	wget -O ~/ssh https://raw.githubusercontent.com/ccontavalli/ssh-ident/master/ssh-ident; chmod 0755 ~/ssh; sudo mv ~/ssh /usr/local/bin
-	export PATH='~/bin:$PATH'
-	if [[ $(echo $SHELL) == $(which zsh) ]]; then
-		echo 'export PATH=~/bin:$PATH' >> ~/.zshrc
-	else
-		echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
-	fi
 fi
 
 echo ""
