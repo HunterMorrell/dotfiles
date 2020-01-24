@@ -95,6 +95,8 @@ if [[ $dotfiles_answer == "yes" ]] || [[ $dotfiles_answer == "y" ]]; then
 	git clone --recurse-submodules git@github.com:HunterMorrell/dotfiles.git
 fi
 
+gem install colorls
+
 #echo "light"
 #git clone git@github.com:haikarainen/light.git
 
