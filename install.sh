@@ -83,6 +83,7 @@ echo "Cloning and installing repos"
 cd $repos_dir
 
 echo "Do you want to install Nerd Fonts (github.com/ryanoasis/nerd-fonts)? [yes or no]"
+echo "Warning: This is a large download and might take a while."
 read fonts_answer
 if [[ $fonts_answer == "yes" ]] || [[ $fonts_answer == "y" ]]; then
 	git clone git@github.com:ryanoasis/nerd-fonts.git
