@@ -174,9 +174,9 @@ if [[ $vim_answer == "yes" ]] || [[ $vim_answer == "y" ]]; then
 	mv ~/vim ~/.vim
 	cd ~/repos/dotfiles/vim
 	ln -sf ~/repos/dotfiles/vim/.vimrc ~
-	if [ ! -d "~/.local/share/nvim/site/" ]; then
-		mkdir ~/.local/share/nvim/site/
-	fi	
+	if [ ! -d "~/.local/share/nvim/site" ]; then
+		mkdir ~/.local/share/nvim/site
+	fi
 	ln -sf ~/repos/dotfiles/vim/colors ~/.local/share/nvim/site/
 	ln -sf ~/repos/dotfiles/vim/pack ~/.local/share/nvim/site/
 fi
