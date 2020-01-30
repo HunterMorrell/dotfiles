@@ -1,1 +1,0 @@
-zsh polybar radare2 git alsa-utils build-essential cmake curl dpkg fwupd gcc gdb i3 i3lock light neovim python3 python3-pip ranger rofi ruby rxvt-unicode vim cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm alsa-lib i3-wm wireless_tools"
