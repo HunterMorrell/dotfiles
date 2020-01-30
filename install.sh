@@ -13,9 +13,24 @@ i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-ut
 
 ####################
 #
-# You have a choice...
+# You have some choices to make...
 #
 ####################
+
+# echo "How much information do you want? Choose one of the following numbers:"
+# echo "1) Full               - Give me all the details."
+# echo "2) Moderate (Default) - I just want to know my options and what you're doing."
+# echo "3) Minimal            - Give me errors or give me death."
+# echo "4) None               - No customization. Just run the script already."
+# read -p "Answer (1-4): " verbose_answer
+
+# while [ $verbose_answer -lt 1 -o $verbose_answer -gt 4 ]; do
+#   echo ""
+#   echo "Whatever you wrote doesn't match the choices. Try again. Use a number between 1-4."
+#   read verbose_answer
+# done
+
+# echo ""
 
 #echo "Do you want the full install or would you like customization options? [full\\options]"
 #read $install_answer
@@ -27,10 +42,10 @@ i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-ut
 #
 ####################
 
-echo "Do you want to install packages? [yes or no]"
-read package_answer
+echo "Do you want to install packages?"
+read -p "Answer (yes or no): " package_answer
 if [[ $package_answer == "yes" ]] || [[ $package_answer == "y" ]]; then
-  echo "Do you want i3 and i3-related packages to be installed? [yes or no]"
+  echo "Do you want i3 and i3-related packages to be installed?"
 	read i3_answer
 	platform=$(uname);
 	# If the platform is Linux, try an apt-get to install zsh and then recurse
@@ -64,7 +79,7 @@ echo ""
 
 echo "Open another terminal and create your SSH key (if you already have, just ignore this) with: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
 echo "Don't forget to add it to Github! Press <ENTER> to continue once this has been done."
-read pass_answer
+read -p "Answer (yes or no): " pass_answer
 
 echo ""
 
@@ -74,8 +89,8 @@ echo ""
 #
 ####################
 
-echo "Do you want to use SSH-Ident (github.com/ccontavalli/ssh-ident) to manage your SSH logins? [yes or no]"
-read ssh_answer
+echo "Do you want to use SSH-Ident (github.com/ccontavalli/ssh-ident) to manage your SSH logins?"
+read -p "Answer (yes or no): " ssh_answer
 if [[ $ssh_answer == "yes" ]] || [[ $ssh_answer == "y" ]]; then
 	wget -O ~/ssh https://raw.githubusercontent.com/ccontavalli/ssh-ident/master/ssh-ident; chmod 0755 ~/ssh; sudo mv ~/ssh /usr/local/bin
 fi
@@ -104,16 +119,16 @@ echo ""
 echo "Cloning and installing repos"
 cd $repos_dir
 
-echo "Do you want to install Nerd Fonts (github.com/ryanoasis/nerd-fonts)? [yes or no]"
+echo "Do you want to install Nerd Fonts (github.com/ryanoasis/nerd-fonts)?"
 echo "Warning: This is a large download and might take a while."
-read fonts_answer
+read -p "Answer (yes or no): " fonts_answer
 if [[ $fonts_answer == "yes" ]] || [[ $fonts_answer == "y" ]]; then
 	git clone git@github.com:ryanoasis/nerd-fonts.git
 	./nerd-fonts/install.sh
 fi
 
-echo "Do you want to install dotfiles? [yes or no]"
-read dotfiles_answer
+echo "Do you want to install dotfiles?"
+read -p "Answer (yes or no): " dotfiles_answer
 if [[ $dotfiles_answer == "yes" ]] || [[ $dotfiles_answer == "y" ]]; then
 	git clone --recurse-submodules git@github.com:HunterMorrell/dotfiles.git
 fi
@@ -140,8 +155,8 @@ echo ""
 #
 ####################
 
-echo "Do you want to install and configure ZSH with Oh-My-ZSH? [yes or no]"
-read zsh_answer
+echo "Do you want to install and configure ZSH with Oh-My-ZSH?"
+read -p "Answer (yes or no): " zsh_answer
 if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
 	echo "Once this finishes, it might put you in a new shell. If you see a prompt and the script doesn't continue, just enter 'exit' (without the single quotes) and hit enter. Press any key and enter to continue."
 	read null_answer
@@ -191,8 +206,8 @@ ln -sf ~/repos/dotfiles/general/.Xresources ~
 ln -sf ~/repos/dotfiles/general/.xserverrc ~
 
 
-echo "Do you want to symlink the Vim dotfiles? [yes or no]"
-read vim_answer
+echo "Do you want to symlink the Vim dotfiles?"
+read -p "Answer (yes or no): " vim_answer
 if [[ $vim_answer == "yes" ]] || [[ $vim_answer == "y" ]]; then
 	echo "Vim"
 	ln -sf ~/repos/dotfiles/vim ~
@@ -207,8 +222,8 @@ if [[ $vim_answer == "yes" ]] || [[ $vim_answer == "y" ]]; then
 	ln -sf ~/repos/dotfiles/vim/pack ~/.local/share/nvim/site/
 fi
 
-echo "Do you want to symlink the ZSH dotfiles? [yes or no]"
-read zsh_answer
+echo "Do you want to symlink the ZSH dotfiles?"
+read -p "Answer (yes or no): " zsh_answer
 if [[ $zsh_answer == "yes" ]] || [[ $zsh_answer == "y" ]]; then
 	echo "zsh"
 	cd ~/repos/dotfiles/zsh
