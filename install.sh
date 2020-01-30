@@ -7,7 +7,7 @@
 
 repos_dir=~/repos/
 dotfiles_dir=~/repos/dotfiles
-primary_packages="zsh git curl wget vim neovim python python-pip python-pynvim gcc ruby"
+primary_packages="zsh git curl wget vim neovim python python-pip python-pynvim gcc ruby termite"
 i3_packages="polybar i3-gaps i3lock cairo libxcb xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm alsa-lib wireless_tools rofi"
 
 
