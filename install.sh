@@ -180,6 +180,7 @@ if [[ $vim_answer == "yes" ]] || [[ $vim_answer == "y" ]]; then
 	if [ ! -d "~/.local/share/nvim/site" ]; then
 		mkdir -p ~/.local/share/nvim/site
 	fi
+  ln -sf ~/repos/dotfiles/vim/rplugin.vim ~/.local/share/nvim/
 	ln -sf ~/repos/dotfiles/vim/colors ~/.local/share/nvim/site/
 	ln -sf ~/repos/dotfiles/vim/pack ~/.local/share/nvim/site/
 fi
