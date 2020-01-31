@@ -4,9 +4,6 @@
 [submodule "oh-my-zsh/custom/plugins/zsh-you-should-use"]
 	path = oh-my-zsh/custom/plugins/zsh-you-should-use
 	url = https://github.com/MichaelAquilina/zsh-you-should-use.git
-[submodule "vim"]
-	path = vim
-	url = git@github.com:HunterMorrell/vim.git
 [submodule "/home/hunter/repos/dotfiles/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = /home/hunter/repos/dotfiles/zsh/oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
@@ -28,3 +25,63 @@
 [submodule "zsh/oh-my-zsh/custom/plugins/fast-syntax-highlighting"]
 	path = zsh/oh-my-zsh/custom/plugins/fast-syntax-highlighting
 	url = git@github.com:zdharma/fast-syntax-highlighting.git
+[submodule "vim/pack/plugins/start/ctrlp.vim"]
+	path = vim/pack/plugins/start/ctrlp.vim
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule "vim/pack/plugins/start/delimitMate"]
+	path = vim/pack/plugins/start/delimitMate
+	url = git@github.com:Raimondi/delimitMate.git
+[submodule "vim/pack/plugins/start/deoplete.nvim"]
+	path = vim/pack/plugins/start/deoplete.nvim
+	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "vim/pack/plugins/start/indentLine"]
+	path = vim/pack/plugins/start/indentLine
+	url = git@github.com:Yggdroot/indentLine.git
+[submodule "vim/pack/plugins/start/nvim-yarp"]
+	path = vim/pack/plugins/start/nvim-yarp
+	url = git@github.com:roxma/nvim-yarp.git
+[submodule "vim/pack/plugins/start/tabular"]
+	path = vim/pack/plugins/start/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "vim/pack/plugins/start/vim-airline"]
+	path = vim/pack/plugins/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/pack/plugins/start/vim-airline-themes"]
+	path = vim/pack/plugins/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "vim/pack/plugins/start/vim-better-whitespace"]
+	path = vim/pack/plugins/start/vim-better-whitespace
+	url = git@github.com:ntpeters/vim-better-whitespace.git
+[submodule "vim/pack/plugins/start/vim-buftabline"]
+	path = vim/pack/plugins/start/vim-buftabline
+	url = git@github.com:ap/vim-buftabline.git
+[submodule "vim/pack/plugins/start/anderson.vim"]
+	path = vim/pack/plugins/start/anderson.vim
+	url = git@github.com:tlhr/anderson.vim.git
+[submodule "vim/pack/plugins/start/Apprentice"]
+	path = vim/pack/plugins/start/Apprentice
+	url = git@github.com:romainl/Apprentice.git
+[submodule "vim/pack/plugins/start/meta5"]
+	path = vim/pack/plugins/start/meta5
+	url = git@github.com:christophermca/meta5.git
+[submodule "vim/pack/plugins/start/vim-commentary"]
+	path = vim/pack/plugins/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "vim/pack/plugins/start/vim-endwise"]
+	path = vim/pack/plugins/start/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "vim/pack/plugins/start/vim-fugitive"]
+	path = vim/pack/plugins/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "vim/pack/plugins/start/vim-gitgutter"]
+	path = vim/pack/plugins/start/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "vim/pack/plugins/start/vim-hug-neovim-rpc"]
+	path = vim/pack/plugins/start/vim-hug-neovim-rpc
+	url = git@github.com:roxma/vim-hug-neovim-rpc.git
+[submodule "vim/pack/plugins/start/vim-json"]
+	path = vim/pack/plugins/start/vim-json
+	url = git@github.com:elzr/vim-json.git
+[submodule "vim/pack/plugins/start/vim-linux-coding-style"]
+	path = vim/pack/plugins/start/vim-linux-coding-style
+	url = git@github.com:vivien/vim-linux-coding-style.git
