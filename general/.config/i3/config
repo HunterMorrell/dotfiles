@@ -5,10 +5,7 @@
 # this file and re-run i3-config-wizard(1).
 
 exec ~/AppImages/station.AppImage --no-sandbox &
-exec xscreensaver &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec eval "$(ssh-agent -s)"
-exec ssh-add -k ~/.ssh/id_rsa
 
 assign [class="Station"] 1
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
