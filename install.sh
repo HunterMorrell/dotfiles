@@ -131,6 +131,10 @@ echo "Do you want to install dotfiles?"
 read -p "Answer (yes or no): " dotfiles_answer
 if [[ $dotfiles_answer == "yes" ]] || [[ $dotfiles_answer == "y" ]]; then
 	git clone --recurse-submodules git@github.com:HunterMorrell/dotfiles.git
+  cd ./dotfiles
+  # Iterates recursively through all submodules and checkouts the master branch
+  # Default status is detached HEAD at a static commit, so this resolves that
+  git submodule foreach --recursive git checkout master
 fi
 
 gem install colorls
