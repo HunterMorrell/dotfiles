@@ -60,15 +60,15 @@ ZSH_CUSTOM=~/repos/dotfiles/zsh/oh-my-zsh/custom
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-archlinux
 alias-tips
-git
-git-extras
+archlinux
+colored-man-pages
 common-aliases
 command-not-found
 fast-syntax-highlighting
+git
+git-extras
 zsh-autosuggestions
-colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
