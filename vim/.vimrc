@@ -52,27 +52,22 @@ set conceallevel=0
 " open help vertically
 command! -nargs=* -complete=help Help vertical belowright help <args>
 
-" Make Vim to handle long lines nicely.
-set wrap
-set textwidth=79
-set formatoptions=qrn1
-"set colorcolumn=79
-"set relativenumber
-"set norelativenumber
+" formatoptions gets overwritten elsewhere, so this ensures that it sticks
+au BufEnter * set formatoptions=qrn1tcr
 
-set autoindent
-set complete-=i
-set showmatch
+set autoindent                  " Copy indent from current line when starting new line
+set showmatch                   " When a bracket is inserted, briefly jump to the matching
+
+" Indents + tab stuff
 set smarttab
-
-set et
+set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
-
-set nrformats-=octal
 set shiftround
+
+set nrformats-=octal            " Removing octal as a number format
 
 " Time out on key codes but not mappings.
 " Basically this makes terminal Vim work sanely.
@@ -96,11 +91,13 @@ if !empty(&viminfo)
   set viminfo^=!
 endif
 
+" changes the min of how many lines are on either side of the cursor, to give
+" context while scrolling
 if !&scrolloff
-  set scrolloff=1
+  set scrolloff=10
 endif
 if !&sidescrolloff
-  set sidescrolloff=5
+  set sidescrolloff=15
 endif
 set display+=lastline
 
@@ -132,9 +129,6 @@ if has("autocmd")
   augroup vimrcEx
     au!
 
-    " For all text files set 'textwidth' to 78 characters.
-    autocmd FileType text setlocal textwidth=78
-
     " When editing a file, always jump to the last known cursor position.
     " Don't do it when the position is invalid or when inside an event handler
     " (happens when dropping a file on gvim).
@@ -149,7 +143,7 @@ if has("autocmd")
 else
 endif " has("autocmd")
 
-
+" stylin' and profilin'
 syntax enable
 if has('gui_running')
   set transparency=3
@@ -157,10 +151,7 @@ if has('gui_running')
   set regexpengine=1
   syntax enable
 endif
-"set background=dark
 set t_Co=256
-" let g:hybrid_use_Xresources = 1
-" let g:rehash256 = 1
 colorscheme meta5
 set guifont=Source\ Code\ Pro\ for\ Powerline:h11
 set guioptions-=L
@@ -257,17 +248,9 @@ cmap w!! w !sudo tee > /dev/null %
 let &t_SI .= "\<Esc>[?2004h"
 let &t_EI .= "\<Esc>[?2004l"
 
-inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
-
-function! XTermPasteBegin()
-  set pastetoggle=<Esc>[201~
-  set paste
-  return ""
-endfunction
-
-" set 80 character line limit
+" set 100 character line limit
 if exists('+colorcolumn')
-  set colorcolumn=80
+  set colorcolumn=100
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
@@ -314,29 +297,29 @@ let g:deoplete#enable_at_startup = 1
 " nmap <C-b> :CtrlPCurWD<cr>
 " imap <C-b> <esc>:CtrlPCurWD<cr>
 
-" ==================== Fugitive ====================
+" ==================== Fugitive =======================
 nnoremap <leader>ga :Git add %:p<CR><CR>
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gp :Gpush<CR>
 vnoremap <leader>gb :Gblame<CR>
 
-" ================== linuxsty ====================
+" ==================== linuxsty =======================
 "let g:linuxsty_patterns = ['/usr/src/', '/linux']
 
-" ==================== delimitMate ====================
+" =================== delimitMate =====================
 let g:delimitMate_expand_cr = 1
 let g:delimitMate_expand_space = 1
 let g:delimitMate_smart_quotes = 1
 let g:delimitMate_expand_inside_quotes = 0
 let g:delimitMate_smart_matchpairs = '^\%(\w\|\$\)'
 
-" ========= vim-better-whitespace ==================
+" =============== vim-better-whitespace ===============
 
 " auto strip whitespace except for file with extention blacklisted
 let blacklist = ['markdown', 'md']
 autocmd BufWritePre * StripWhitespace
 
-" =================== vim-airline ========================
+" =================== vim-airline =====================
 
 let g:airline_theme='deus'
 
